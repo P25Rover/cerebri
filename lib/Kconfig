@@ -1,0 +1,12 @@
+# Copyright (c) 2023 CogniPilot Foundation
+# SPDX-License-Identifier: Apache-2.0
+
+menu "Libraries"
+
+rsource "synapse/Kconfig"
+
+rsource "actuate/Kconfig"
+rsource "core/Kconfig"
+rsource "sense/Kconfig"
+
+endmenu

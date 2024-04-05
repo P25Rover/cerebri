@@ -1,0 +1,6 @@
+# SPDX-License-Identifier: Apache-2.0
+
+add_subdirectory_ifdef(CONFIG_CEREBRI_SYNAPSE_ETH_TX eth_tx)
+add_subdirectory_ifdef(CONFIG_CEREBRI_SYNAPSE_ETH_RX eth_rx)
+add_subdirectory_ifdef(CONFIG_CEREBRI_SYNAPSE_TOPIC topic)
+add_subdirectory_ifdef(CONFIG_CEREBRI_SYNAPSE_ZROS zros)
